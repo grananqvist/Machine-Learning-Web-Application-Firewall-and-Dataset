@@ -1,0 +1,37 @@
+<div class="main">
+  <div class="header">
+    <h1>Machine Learning based Web Application Firewall</h1>
+  </div>
+  <div class="body">
+    <div class="input" fxLayout="row" fxLayoutAlign="center center">
+      <md-input-container class="input-string">
+        <input mdInput placeholder="Input string" value="" #input>
+      </md-input-container>
+      <button md-button (click)="submit(input.value)">Submit</button>
+    </div>
+
+    <div class="classified">
+      <div class="legal">
+        <div class="class-title"><b>Legal</b></div>
+        <div fxLayoutAlign="center center">
+          <ul class="list">
+            <li *ngFor="let input of legal">
+              {{input}}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="malicious">
+        <div class="class-title"><b>Malicious</b></div>
+        <div fxLayoutAlign="center center">
+          <ul class="list">
+            <li *ngFor="let input of malicious">
+              {{input}}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,49 @@
+.main{
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.body{
+    width: 100%;
+    float: left;
+        
+}
+
+.input{
+    margin: 0 auto;
+}
+
+.classified{
+    width: 100%;
+}
+
+.legal{
+    width: 49%;
+    display: inline-block;
+}
+
+.malicious{
+    width: 49%;
+    display: inline-block;
+}
+
+.class-title{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.list{
+    display: inline-block;
+}
+
+.input-string{
+    margin-right: 10px;
+    width: 250px;
+}
