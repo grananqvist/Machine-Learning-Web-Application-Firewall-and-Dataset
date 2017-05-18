@@ -5,9 +5,9 @@
   <div class="body">
     <div class="input" fxLayout="row" fxLayoutAlign="center center">
       <md-input-container class="input-string">
-        <input mdInput placeholder="Input string" value="" #input>
+        <input mdInput placeholder="Input string" [(ngModel)]="input" (keypress)=onKey($event)>
       </md-input-container>
-      <button md-button (click)="submit(input.value)">Submit</button>
+      <button md-button (click)="submit()">Submit</button>
     </div>
 
     <div class="classified">

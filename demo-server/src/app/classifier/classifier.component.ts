@@ -14,32 +14,37 @@ import 'rxjs/add/operator/map';
 })
 export class ClassifierComponent implements OnInit {
 
+  input = ""
+
   public malicious = ['<script>', '</script>']
   public legal = ['test', 'hej']
-  public count = 1
 
   constructor(private http: Http, private classifierService : ClassifierService) { }
 
   
   ngOnInit() {
 
-    console.log(this.legal);
-    console.log(this.malicious);
+
   }
 
-  submit(input){
-    this.classifierService.classifyInput(input)
+  submit(){
+    this.classifierService.classifyInput(this.input)
     .subscribe(result =>{
-      var inputs = {input : input}
-      if(this.count%2 == 0){
-        
-        this.malicious.push(input);
+      var classifiedAs = result.text();
 
-      } else {
-        this.legal.push(input);
+      if(classifiedAs == 'NOT_MALICIOUS'){
+        this.legal.push(this.input);
+      } else{
+        this.malicious.push(this.input);
       }
+      this.input = ''
     })
-    this.count = this.count + 1;
+  }
+
+  onKey(event){
+    if(event.keyCode == 13){
+      this.submit();
+    }
   }
 
   

@@ -8,7 +8,7 @@ export class ClassifierService {
   constructor(private http: Http) { }
 
   classifyInput(input) {
-    return this.http.get('/api/classify/:input');
+    return this.http.get('/api/classify/' + input);
 
   }
 
