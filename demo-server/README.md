@@ -2,7 +2,7 @@
 
 Demonstration website for the classifier
 
-#Installation guide
+# Installation guide
 
 1 Install Python and node.js
 
@@ -12,4 +12,4 @@ Demonstration website for the classifier
 
 4 Start the node server: "npm run build" in termninal
 
-5 go to [demo-ebsite](http://localhost:3000)
+5 go to [demo-website](http://localhost:3000)
