@@ -10,6 +10,6 @@ Demonstration website for the classifier
 
 3 Install the node modules: "npm install" in terminal
 
-4 Start the node server: "npm run build" in termninal
+4 Start the node server: "npm run build" in terminal
 
 5 go to [demo-website](http://localhost:3000)

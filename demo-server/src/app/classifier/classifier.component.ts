@@ -16,8 +16,8 @@ export class ClassifierComponent implements OnInit {
 
   input = ""
 
-  public malicious = ['<script>', '</script>']
-  public legal = ['test', 'hej']
+  public malicious = []
+  public legal = []
 
   constructor(private http: Http, private classifierService : ClassifierService) { }
 
