@@ -1,5 +1,7 @@
 # Machine learning based web application firewall
 
+Machine learning based Web Application firewall for detection attacks such as SQL injections, XSS and shell script injections. 
+
 Course project for TDA602
 Contributors: Filip Granqvist & Oskar Holmberg
 
